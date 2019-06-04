@@ -7,14 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		979BE4DA22A20202004112AC /* MasterStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 979BE4D922A20202004112AC /* MasterStyle.swift */; };
 		979EDCE6229D285E00B089C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 979EDCE5229D285E00B089C4 /* AppDelegate.swift */; };
 		979EDCE8229D285E00B089C4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 979EDCE7229D285E00B089C4 /* ViewController.swift */; };
 		979EDCEB229D285E00B089C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 979EDCE9229D285E00B089C4 /* Main.storyboard */; };
 		979EDCED229D285E00B089C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 979EDCEC229D285E00B089C4 /* Assets.xcassets */; };
 		979EDCF0229D285E00B089C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 979EDCEE229D285E00B089C4 /* LaunchScreen.storyboard */; };
+		97CE614B229E6F7C008FA257 /* CarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97CE614A229E6F7C008FA257 /* CarView.swift */; };
+		97CE614D229E7A2A008FA257 /* TeachnologicalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97CE614C229E7A2A008FA257 /* TeachnologicalView.swift */; };
+		97CE6150229E7B39008FA257 /* TravelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97CE614F229E7B39008FA257 /* TravelView.swift */; };
+		97CE6152229E7B5B008FA257 /* StudyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97CE6151229E7B5B008FA257 /* StudyView.swift */; };
+		97CE6154229E7B6F008FA257 /* MarriedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97CE6153229E7B6F008FA257 /* MarriedView.swift */; };
+		97CE6156229E7B82008FA257 /* MakeBabyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97CE6155229E7B82008FA257 /* MakeBabyView.swift */; };
+		97E937F1229E2C7500F3247D /* ExtensionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97E937F0229E2C7500F3247D /* ExtensionView.swift */; };
+		97E937F3229E336700F3247D /* HouseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97E937F2229E336700F3247D /* HouseView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		979BE4D922A20202004112AC /* MasterStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterStyle.swift; sourceTree = "<group>"; };
 		979EDCE2229D285E00B089C4 /* LayoutBank.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LayoutBank.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		979EDCE5229D285E00B089C4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		979EDCE7229D285E00B089C4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +32,14 @@
 		979EDCEC229D285E00B089C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		979EDCEF229D285E00B089C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		979EDCF1229D285E00B089C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		97CE614A229E6F7C008FA257 /* CarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarView.swift; sourceTree = "<group>"; };
+		97CE614C229E7A2A008FA257 /* TeachnologicalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeachnologicalView.swift; sourceTree = "<group>"; };
+		97CE614F229E7B39008FA257 /* TravelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelView.swift; sourceTree = "<group>"; };
+		97CE6151229E7B5B008FA257 /* StudyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyView.swift; sourceTree = "<group>"; };
+		97CE6153229E7B6F008FA257 /* MarriedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarriedView.swift; sourceTree = "<group>"; };
+		97CE6155229E7B82008FA257 /* MakeBabyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakeBabyView.swift; sourceTree = "<group>"; };
+		97E937F0229E2C7500F3247D /* ExtensionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionView.swift; sourceTree = "<group>"; };
+		97E937F2229E336700F3247D /* HouseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,12 +74,29 @@
 			children = (
 				979EDCE5229D285E00B089C4 /* AppDelegate.swift */,
 				979EDCE7229D285E00B089C4 /* ViewController.swift */,
+				97CE614E229E7A64008FA257 /* Style */,
 				979EDCE9229D285E00B089C4 /* Main.storyboard */,
+				979BE4D922A20202004112AC /* MasterStyle.swift */,
+				97E937F0229E2C7500F3247D /* ExtensionView.swift */,
 				979EDCEC229D285E00B089C4 /* Assets.xcassets */,
 				979EDCEE229D285E00B089C4 /* LaunchScreen.storyboard */,
 				979EDCF1229D285E00B089C4 /* Info.plist */,
 			);
 			path = LayoutBank;
+			sourceTree = "<group>";
+		};
+		97CE614E229E7A64008FA257 /* Style */ = {
+			isa = PBXGroup;
+			children = (
+				97E937F2229E336700F3247D /* HouseView.swift */,
+				97CE614A229E6F7C008FA257 /* CarView.swift */,
+				97CE614C229E7A2A008FA257 /* TeachnologicalView.swift */,
+				97CE614F229E7B39008FA257 /* TravelView.swift */,
+				97CE6151229E7B5B008FA257 /* StudyView.swift */,
+				97CE6153229E7B6F008FA257 /* MarriedView.swift */,
+				97CE6155229E7B82008FA257 /* MakeBabyView.swift */,
+			);
+			name = Style;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,8 +170,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				979BE4DA22A20202004112AC /* MasterStyle.swift in Sources */,
 				979EDCE8229D285E00B089C4 /* ViewController.swift in Sources */,
+				97CE614D229E7A2A008FA257 /* TeachnologicalView.swift in Sources */,
+				97CE6156229E7B82008FA257 /* MakeBabyView.swift in Sources */,
+				97CE6150229E7B39008FA257 /* TravelView.swift in Sources */,
+				97CE614B229E6F7C008FA257 /* CarView.swift in Sources */,
+				97E937F3229E336700F3247D /* HouseView.swift in Sources */,
+				97E937F1229E2C7500F3247D /* ExtensionView.swift in Sources */,
+				97CE6152229E7B5B008FA257 /* StudyView.swift in Sources */,
 				979EDCE6229D285E00B089C4 /* AppDelegate.swift in Sources */,
+				97CE6154229E7B6F008FA257 /* MarriedView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
